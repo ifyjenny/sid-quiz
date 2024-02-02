@@ -1,6 +1,6 @@
 body {
   background-image: url(images/Homepage.png);
-  background-size: cover;
+  background-size: 1580px 800px ;
   background-repeat: no-repeat;
 }
 
@@ -13,17 +13,16 @@ body {
   text-align: left;
   color: black;
 
-  padding: 60px;
-  width: 450px;
+  padding: 60px ;
+  width: 380px;
   height: 660px;
   border-radius: 8px;
-  margin-top: 70px;
+  margin-top: 0px;
   margin-left: 23px;
 }
 
 p {
-  width: 300px;
-  height: 12px;
+  height: 10px;
   font-weight: 0px;
   line-height: 32px;
 
@@ -40,7 +39,7 @@ button {
   border-radius: 10px;
   padding: 10px;
 
-  width: 380px;
+  width: 335px;
   height: 50px;
   color: white;
 }
@@ -64,7 +63,7 @@ button:hover {
 input {
   padding: 15px;
   border-radius: 7px;
-  width: 345px;
+  width: 300px;
   height: 15px;
 
   border-color: #ffffff61;
