@@ -62,10 +62,12 @@ button {
     cursor: pointer;
   width: 350px;
   height: 50px;
+  
 }
 
 button:hover {
   cursor: pointer;
+  transition: all 200ms ease;
 }
 
 .button1 {
@@ -102,6 +104,12 @@ button:hover {
 a {
   text-decoration: none;
   color: #6da01e;
+}
+
+.lst-ending{
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
 }
 
 .ending {
