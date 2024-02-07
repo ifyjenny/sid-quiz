@@ -1,7 +1,7 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .details {
@@ -9,31 +9,29 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 1440px;
-    height: 1024px;
-   
-    padding: 70px, 828px, 71px, 23px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  height: 1024px;
 
-   
+  padding: 70px, 828px, 71px, 23px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.form{
-    width: 589px;
-    height: 883px;
-    
-    padding: 94px, 122px, 95px, 121px;
-    margin-top: 70px;
-    margin-left: 23px;
-    border-radius: 8px;
-    background: #FFFFFF61;
+.form {
+  width: 589px;
+  height: 883px;
+
+  padding: 94px, 122px, 95px, 121px;
+  margin-top: 70px;
+  margin-left: 23px;
+  border-radius: 8px;
+  background: #ffffff61;
 }
 
-.content{
+.content {
   width: 346px;
-    height: 694px;
-    padding-top: 50px;
-    padding-left: 121px;
+  height: 694px;
+  padding-top: 50px;
+  padding-left: 121px;
 }
 
 .content p {
@@ -55,14 +53,13 @@ section {
 button {
   background: #6da01e;
   padding: 10px;
-    height: 48px;
-    border-radius: 8px;
-    margin-top: 30px;
-    color: white;
-    cursor: pointer;
+  height: 48px;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
   width: 350px;
   height: 50px;
-  
 }
 
 button:hover {
@@ -72,7 +69,6 @@ button:hover {
 
 .button1 {
   border: none;
-  
 }
 
 .button2 {
@@ -84,12 +80,12 @@ button:hover {
 }
 
 .content input {
-   width: 345px;
-    height: 48px;
-    top: 69px;
-    left: 1px;
-    border-radius: 8px;
-    border: 1px;
+  width: 345px;
+  height: 48px;
+  top: 69px;
+  left: 1px;
+  border-radius: 8px;
+  border: 1px;
   border-color: #ffffff61;
 }
 
@@ -97,19 +93,15 @@ button:hover {
   position: relative;
 }
 
-.passwordInput {
-  padding-right: 30px; /* Space for the eye icon */
-}
-
 a {
   text-decoration: none;
   color: #6da01e;
 }
 
-.lst-ending{
-    justify-content: center;
-    text-align: center;
-    padding-left: 30px;
+.lst-ending {
+  justify-content: center;
+  text-align: center;
+  padding-left: 30px;
 }
 
 .ending {
@@ -118,10 +110,12 @@ a {
   padding-left: 40px;
 }
 
-.fa{
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translate(-50%);
-    cursor: pointer;
+.fa {
+  padding-top: 20px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black;
 }
